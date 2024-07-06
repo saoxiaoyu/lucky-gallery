@@ -199,7 +199,7 @@ onMounted(() => {
                 <!-- back to gallery (desktop & not the first or last image) -->
                 <UTooltip
                   v-if="!(isFirstImg || isLastImg) || isSmallScreen"
-                  text="Back to gallery"
+                  text="返回图库"
                   :shortcuts="['Esc']"
                 >
                   <UButton
