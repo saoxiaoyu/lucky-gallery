@@ -146,7 +146,7 @@ onMounted(() => {
             <UGauge
               v-model="sepia"
               :max="100"
-              title="怀旧风格（棕色调）"
+              title="怀旧风格"
             />
             <UGauge
               v-model="hueRotate"
