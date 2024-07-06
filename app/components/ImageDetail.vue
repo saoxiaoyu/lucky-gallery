@@ -15,7 +15,7 @@ const saturate = ref(100)
 const sepia = ref(0)
 const magnifier = ref(false)
 const zoomFactor = ref(1)
-const objectsFit = ref(['Contain', 'Cover', 'Scale-down', 'Fill', 'None'])
+const objectsFit = ref(['包含', '覆盖', '缩小适应', '填充', '无']);
 const objectFitSelected = ref(objectsFit.value[0])
 const filterUpdated = ref(false)
 
@@ -115,7 +115,7 @@ onMounted(() => {
           <div class="flex flex-col gap-y-4">
             <!-- filters list -->
             <div class="flex gap-x-4 justify-between items-center pb-4">
-              <span class="text-white w-40">Fit</span>
+              <span class="text-white w-40">属性</span>
               <USelectMenu
                 v-model="objectFitSelected"
                 :options="objectsFit"
@@ -127,7 +127,7 @@ onMounted(() => {
               <UCheckbox
                 v-model="magnifier"
                 name="magnifier"
-                label="Magnifier"
+                label="局部缩放"
                 color="primary"
                 :ui="{ label: 'text-gray-300 dark:text-gray-300' }"
               />
@@ -141,37 +141,37 @@ onMounted(() => {
               v-if="magnifier"
               v-model="zoomFactor"
               :max="4"
-              title="Zoom level"
+              title="缩放级别"
             />
             <UGauge
               v-model="sepia"
               :max="100"
-              title="Sepia"
+              title="怀旧风格（棕色调）"
             />
             <UGauge
               v-model="hueRotate"
               :max="180"
-              title="Hue-rotate"
+              title="色相旋转"
             />
             <UGauge
               v-model="saturate"
               :max="100"
-              title="Saturate"
+              title="饱和度"
             />
             <UGauge
               v-model="invert"
               :max="100"
-              title="Invert"
+              title="反转"
             />
             <UGauge
               v-model="contrast"
               :max="200"
-              title="Contrast"
+              title="对比度"
             />
             <UGauge
               v-model="blur"
               :max="5"
-              title="Blur"
+              title="模糊"
             />
           </div>
         </div>
