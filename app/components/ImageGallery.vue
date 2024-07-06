@@ -138,11 +138,8 @@ async function clearSession() {
           class="text-2xl text-white flex flex-col gap-y-4 items-center justify-center h-full w-full pb-8"
         >
           <h1 class="font-medium text-5xl">
-            Welcome to image gallery
+            2024三下乡
           </h1>
-          <p class="text-gray-400">
-            You must be logged in to start uploading images
-          </p>
         </div>
 
         <ul
