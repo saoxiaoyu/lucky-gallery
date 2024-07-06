@@ -102,7 +102,7 @@ async function clearSession() {
             />
             <UButton
               v-else
-              label="Sign in"
+              label="登录"
               color="green"
               variant="ghost"
               aria-label="Sign in"
