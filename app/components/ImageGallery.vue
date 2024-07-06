@@ -138,7 +138,7 @@ async function clearSession() {
           class="text-2xl text-white flex flex-col gap-y-4 items-center justify-center h-full w-full pb-8"
         >
           <h1 class="font-medium text-5xl">
-            2024三下乡
+            Bringing Culture/Science and Technology/Hygienic Health to the Countryside.
           </h1>
         </div>
 
