@@ -226,7 +226,7 @@ onMounted(() => {
                   />
                 </UTooltip>
                 <!-- open original -->
-                <UTooltip text="Open in a new tab">
+                <UTooltip text="新标签页打开图片">
                   <UButton
                     variant="ghost"
                     color="gray"
@@ -238,7 +238,7 @@ onMounted(() => {
                   />
                 </UTooltip>
                 <!-- download original or modified image -->
-                <UTooltip text="Download">
+                <UTooltip text="下载">
                   <UButton
                     variant="ghost"
                     color="gray"
