@@ -5,13 +5,13 @@ defineEmits(['resetFilter', 'closeFilter'])
 <template>
   <div class="p-5 flex flex-col justify-between w-[350px] bg-gray-900 z-50 rounded-lg border border-zinc-700">
     <div>
-      <span class="text-white">Filters</span>
+      <span class="text-white">编辑/调整</span>
       <div class="mt-[28px] ">
         <slot />
       </div>
     </div>
     <UButton
-      label="Reset"
+      label="重置"
       color="black"
       variant="outline"
       class="text-gray-400 hover:text-gray-300 transition-colors duration-200 w-fit"
