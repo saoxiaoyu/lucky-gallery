@@ -34,12 +34,12 @@ async function login() {
     @submit.prevent="login"
   >
     <h1 class="text-lg text-gray-300">
-      Login to upload images
+      登录以上传图片
     </h1>
     <UInput
       v-model="password"
       type="password"
-      placeholder="Enter password"
+      placeholder="管理员密码"
       icon="i-heroicons-key"
       class="!w-60"
     />
@@ -47,8 +47,8 @@ async function login() {
     <UButton
       :loading="loading"
       type="submit"
-      label="Login"
-      color="green"
+      label="登录"
+      color="blue"
       variant="ghost"
       class="px-4"
       size="lg"
