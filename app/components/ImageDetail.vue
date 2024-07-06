@@ -186,7 +186,7 @@ onMounted(() => {
         >
           <template #description>
             <p class="bottom-menu-description">
-              Nuxt Image Gallery
+              Lucky Image Gallery
             </p>
           </template>
           <!-- Filters -->
@@ -214,7 +214,7 @@ onMounted(() => {
                 </UTooltip>
                 <!-- open filters -->
                 <!-- v-if="loggedIn"  -->
-                <UTooltip text="Add filters">
+                <UTooltip text="编辑/调整">
                   <UButton
                     variant="ghost"
                     color="gray"
