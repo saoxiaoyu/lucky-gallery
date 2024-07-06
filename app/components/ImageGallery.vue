@@ -78,9 +78,9 @@ async function clearSession() {
       <BottomMenu class="bottom-menu">
         <template #logo>
           <img
-            src="/logo.svg"
-            width="29"
-            height="20"
+            src="https://saoxiaoyu.github.io/picx-images-hosting/logo.5j41n04okz.svg"
+            width="35"
+            height="35"
           >
         </template>
         <template #description>
