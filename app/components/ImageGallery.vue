@@ -107,7 +107,7 @@ async function clearSession() {
               variant="ghost"
               aria-label="Sign in"
               class="mr-4 sm:mr-0"
-              @click="isOpen = true"
+              @click="isOpen = false"
             />
           </div>
         </template>
