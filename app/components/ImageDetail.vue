@@ -292,7 +292,7 @@ onMounted(() => {
             <!-- previous image if not the first image -->
             <UTooltip
               v-if="!isFirstImg"
-              text="Previous"
+              text="上一页"
               :shortcuts="['←']"
             >
               <UButton
@@ -313,7 +313,7 @@ onMounted(() => {
             >
               <!-- back to gallery if first movie -->
               <UTooltip
-                text="Back to gallery"
+                text="返回图库"
                 :shortcuts="['Esc']"
               >
                 <UButton
@@ -361,7 +361,7 @@ onMounted(() => {
             <!-- next image (if not the last image) -->
             <UTooltip
               v-if="!isLastImg"
-              text="Next"
+              text="下一页"
               :shortcuts="['→']"
             >
               <UButton
