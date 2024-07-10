@@ -138,8 +138,11 @@ async function clearSession() {
           class="text-2xl text-white flex flex-col gap-y-4 items-center justify-center h-full w-full pb-8"
         >
           <h1 class="font-medium text-5xl">
-            Bringing Culture/Science and Technology/Hygienic Health to the Countryside.
+            Welcome to Lucky-Gallery
           </h1>
+          <p class="text-gray-400">
+            没有‘摆拍’，只有‘抓拍’
+          </p>
         </div>
 
         <ul
