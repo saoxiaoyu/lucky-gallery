@@ -138,10 +138,10 @@ async function clearSession() {
           class="text-2xl text-white flex flex-col gap-y-4 items-center justify-center h-full w-full pb-8"
         >
           <h1 class="font-medium text-5xl">
-            Welcome to Lucky-Gallery
+            Lucky-Gallery
           </h1>
           <p class="text-gray-400">
-            没有‘摆拍’，只有‘抓拍’
+            这里没有‘摆拍’，只有‘抓拍’
           </p>
         </div>
 
