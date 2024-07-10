@@ -10,16 +10,16 @@ useHead({
   }
 })
 
-const title = 'NuxtHub Image Gallery Starter'
-const description = 'A Nuxt template to build your full-stack image gallery application on the edge.'
+const title = 'Lucky-Gallery'
+const description = 'Event Photo Waterfall.'
 
 useSeoMeta({
   title,
   ogTitle: title,
   description,
   ogDescription: description,
-  ogSiteName: 'NuxtHub image gallery template',
-  ogImage: 'https://image-gallery.nuxt.dev/social-card.png',
+  ogSiteName: 'Lucky-Gallery',
+  ogImage: 'https://saoxiaoyu.github.io/picx-images-hosting/17_Sheep.5kwzh7b9uzk0.png',
   twitterCard: 'summary_large_image'
 })
 
