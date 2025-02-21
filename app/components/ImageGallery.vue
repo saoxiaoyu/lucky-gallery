@@ -86,7 +86,7 @@ async function clearSession() {
         <template #description>
           <div class="flex gap-x-4 items-center">
             <p class="bottom-menu-description text-sm sm:text-base leading-tight sm:leading-normal">
-              智造学院活动图片
+              2024年智造学院暑期三下乡
             </p>
           </div>
         </template>
